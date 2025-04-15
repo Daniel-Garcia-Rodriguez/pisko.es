@@ -1,0 +1,91 @@
+/* Estilos globales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Aseguramos que el body ocupe toda la altura de la página */
+html, body {
+    height: 100%;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color:#555;
+    color: #dad1d1;
+}
+
+/* Estilos del header */
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    height: 21%;
+}
+
+header img {
+    max-width: 21%; 
+}
+
+header nav {
+    font-size: 100%;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+/* Flexbox para garantizar que el contenido ocupe el 100% de la pantalla */
+main {
+    color: #dad1d1;
+    text-align: justify;
+    min-height: 100%;
+    margin-left: 13%;
+    margin-right: 13%;
+    max-width: 74%;
+    padding-bottom: 60px; /* Añadido para que el footer no se superponga */
+}
+
+main a{
+    text-decoration: none;
+    color: white;
+}
+main h1 {
+    font-size: 2rem;
+    text-align: center;
+    color: white;
+    font-variant: small-caps;}
+
+main h2 {
+    font-size: 1.25rem;
+    color: white;
+    font-variant: small-caps;
+}
+
+main strong{
+    color: white;
+}
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    margin-top: auto; /* Asegura que el footer se mantenga al final */
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+}
